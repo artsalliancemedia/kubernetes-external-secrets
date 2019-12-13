@@ -33,7 +33,7 @@ spec:
           - name: "METRICS_PORT"
             value: "3001"
           - name: "POLLER_INTERVAL_MILLISECONDS"
-            value: "10000"
+            value: "100000"
           - name: "VAULT_ADDR"
             value: "http://127.0.0.1:8200"
           # Params for env vars populated from k8s secrets
